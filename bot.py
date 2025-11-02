@@ -6,9 +6,9 @@ from instagrapi import Client
 from instagrapi.exceptions import LoginRequired
 
 # === الإعدادات ===
-TELEGRAM_TOKEN = os.getenv("7411254867:AAE9imYxBxIrkL9TAxM3ti9ceO-p-HNkfTo")
-IG_USERNAME = os.getenv("fahlkm86")
-IG_PASSWORD = os.getenv("123456789asdASD#")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+IG_USERNAME = os.getenv("IG_USERNAME")
+IG_PASSWORD = os.getenv("IG_PASSWORD")
 
 # === تسجيل الدخول إلى إنستجرام ===
 cl = Client()
