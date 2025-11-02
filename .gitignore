@@ -1,0 +1,9 @@
+# ملفات حساسة
+session.json
+*.env
+.env
+
+# ملفات نظام
+__pycache__/
+*.pyc
+.DS_Store
